@@ -1,0 +1,48 @@
+kiper_tulungagung:
+  ros__parameters:
+    # Ambang jarak bola dalam sentimeter.
+    threshold_cm: 50.0
+
+    # Lebar hysteresis: page hanya berganti setelah jarak melewati
+    # threshold +/- hysteresis agar tidak berkedip di sekitar 50 cm.
+    hysteresis_cm: 5.0
+
+    # Target page harus bertahan selama waktu ini sebelum dikirim.
+    stable_time_sec: 0.5
+
+    # Jeda minimum antar-page 150/151.
+    min_switch_interval_sec: 1.0
+
+    # Data jarak yang lebih lama dari ini dianggap hilang; page ditahan.
+    data_timeout_sec: 0.5
+
+    # Waktu tunggu setelah module diganti sebelum page dikirim.
+    module_switch_delay_sec: 0.4
+
+    # Batas waktu menunggu movement_done untuk satu page.
+    action_done_timeout_sec: 3.0
+
+    # Jumlah percobaan ulang jika action module belum aktif.
+    page_retry_max: 1
+
+    # Waktu anti-double-press untuk tombol OpenCR.
+    button_debounce_sec: 0.3
+
+    # Bola dianggap masih terlihat selama waktu ini setelah deteksi.
+    ball_timeout_sec: 0.5
+
+    # Nomor page action robot.
+    page_dekat: 150
+    page_jauh: 151
+    page_naik: 80
+    page_turun: 15
+
+    # Periode timer utama node.
+    loop_period_sec: 0.05
+
+    # Ukuran jendela median dan bobot EMA untuk filter jarak.
+    distance_filter_window: 5
+    distance_filter_alpha: 0.2
+
+    # Aktifkan action module sekali saat node mulai.
+    auto_enable_action_module: true

@@ -1,0 +1,6 @@
+source;share/kipertulungagung/hook/pythonpath.dsv
+source;share/kipertulungagung/hook/pythonpath.sh
+source;share/kipertulungagung/hook/ament_prefix_path.dsv
+source;share/kipertulungagung/hook/ament_prefix_path.sh
+source;../../build/kipertulungagung/share/kipertulungagung/hook/pythonpath_develop.dsv
+source;../../build/kipertulungagung/share/kipertulungagung/hook/pythonpath_develop.sh

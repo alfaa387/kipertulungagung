@@ -1,0 +1,2 @@
+[console_scripts]
+kiper = kipertulungagung.kiper:main

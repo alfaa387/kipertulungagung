@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing kipertulungagung.egg-info/PKG-INFO
+writing dependency_links to kipertulungagung.egg-info/dependency_links.txt
+writing entry points to kipertulungagung.egg-info/entry_points.txt
+writing requirements to kipertulungagung.egg-info/requires.txt
+writing top-level names to kipertulungagung.egg-info/top_level.txt
+reading manifest file 'kipertulungagung.egg-info/SOURCES.txt'
+writing manifest file 'kipertulungagung.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages/kipertulungagung.egg-link (link to .)
+Installing kiper script to /home/aroc1/kipertulungagung/install/kipertulungagung/lib/kipertulungagung
+
+Installed /home/aroc1/kipertulungagung/build/kipertulungagung
+running install_data
+copying package.xml -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung

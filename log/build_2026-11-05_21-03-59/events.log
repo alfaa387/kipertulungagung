@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (kipertulungagung) JobQueued: {'identifier': 'kipertulungagung', 'dependencies': OrderedDict()}
+[0.000974] (kipertulungagung) JobStarted: {'identifier': 'kipertulungagung'}
+[0.099679] (-) TimerEvent: {}
+[0.200410] (-) TimerEvent: {}
+[0.301423] (-) TimerEvent: {}
+[0.402409] (-) TimerEvent: {}
+[0.503696] (-) TimerEvent: {}
+[0.603890] (-) TimerEvent: {}
+[0.704079] (-) TimerEvent: {}
+[0.804296] (-) TimerEvent: {}
+[0.905327] (-) TimerEvent: {}
+[1.005524] (-) TimerEvent: {}
+[1.105721] (-) TimerEvent: {}
+[1.206051] (-) TimerEvent: {}
+[1.306435] (-) TimerEvent: {}
+[1.406613] (-) TimerEvent: {}
+[1.507084] (-) TimerEvent: {}
+[1.607635] (-) TimerEvent: {}
+[1.707827] (-) TimerEvent: {}
+[1.808013] (-) TimerEvent: {}
+[1.908218] (-) TimerEvent: {}
+[2.008423] (-) TimerEvent: {}
+[2.108685] (-) TimerEvent: {}
+[2.208863] (-) TimerEvent: {}
+[2.309072] (-) TimerEvent: {}
+[2.411472] (-) TimerEvent: {}
+[2.512139] (-) TimerEvent: {}
+[2.612410] (-) TimerEvent: {}
+[2.712735] (-) TimerEvent: {}
+[2.812908] (-) TimerEvent: {}
+[2.913151] (-) TimerEvent: {}
+[3.013395] (-) TimerEvent: {}
+[3.113598] (-) TimerEvent: {}
+[3.213796] (-) TimerEvent: {}
+[3.314703] (-) TimerEvent: {}
+[3.414894] (-) TimerEvent: {}
+[3.441219] (kipertulungagung) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aroc1/kipertulungagung/build/kipertulungagung/build', '--no-deps', 'install_data'], 'cwd': '/home/aroc1/kipertulungagung/build/kipertulungagung', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aroc1', 'AGENT': '1', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aroc1/RobotisSoccerYawNew/install/usb_cam/lib:/home/aroc1/RobotisSoccerYawNew/install/open_cr_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_direct_control_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_base_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_kinematics_dynamics/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_head_control_module/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_balance_control/lib:/home/aroc1/RobotisSoccerYawNew/install/robotis_math/lib:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module/lib:/home/aroc1/RobotisSoccerYawNew/install/robotis_device/lib:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module_msgs/lib:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_custom_interfaces/lib:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aroc1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1381', 'SYSTEMD_EXEC_PID': '2489', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3568', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/aroc1/arocgo/install:/home/aroc1/RobotisSoccerYawNew/install:/home/aroc1/AlhamdulillahNasional/install:/home/aroc1/BismilahNasional/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aroc1', 'JOURNAL_STREAM': '10:24661', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aroc1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'OPENCODE': '1', 'PATH': '/opt/ros/jazzy/bin:/home/aroc1/.opencode/bin:/home/aroc1/.local/bin:/home/aroc1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aroc1-NUC7i3BNK:@/tmp/.ICE-unix/1982,unix/aroc1-NUC7i3BNK:/tmp/.ICE-unix/1982', 'INVOCATION_ID': 'e6f4335e4c5949b0b3a523ae1dcf812c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'OPENCODE_PID': '8795', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/aroc1/RobotisSoccerYawNew/install/op3_demo:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool:/home/aroc1/RobotisSoccerYawNew/install/op3_bringup:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector:/home/aroc1/RobotisSoccerYawNew/install/usb_cam:/home/aroc1/RobotisSoccerYawNew/install/op3_action_editor:/home/aroc1/RobotisSoccerYawNew/install/ros_mpg321_player:/home/aroc1/RobotisSoccerYawNew/install/ros_madplay_player:/home/aroc1/RobotisSoccerYawNew/install/op3_read_write_demo:/home/aroc1/RobotisSoccerYawNew/install/op3_manager:/home/aroc1/RobotisSoccerYawNew/install/open_cr_module:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_server:/home/aroc1/RobotisSoccerYawNew/install/op3_localization:/home/aroc1/RobotisSoccerYawNew/install/op3_direct_control_module:/home/aroc1/RobotisSoccerYawNew/install/op3_base_module:/home/aroc1/RobotisSoccerYawNew/install/op3_kinematics_dynamics:/home/aroc1/RobotisSoccerYawNew/install/op3_head_control_module:/home/aroc1/RobotisSoccerYawNew/install/op3_balance_control:/home/aroc1/RobotisSoccerYawNew/install/robotis_math:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module:/home/aroc1/RobotisSoccerYawNew/install/robotis_framework_common:/home/aroc1/RobotisSoccerYawNew/install/robotis_device:/home/aroc1/RobotisSoccerYawNew/install/op3_gui_demo:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_web_setting_tool:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_tuner_client:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_client:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_navigation:/home/aroc1/RobotisSoccerYawNew/install/op3_description:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/face_detection:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_examples:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_custom_interfaces:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk:/home/aroc1/arocgo/install/arocgo:/home/aroc1/AlhamdulillahNasional/install/AlhamdulillahNasional:/home/aroc1/BismilahNasional/install/GoNasional:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4b880667-b1f0-426f-964e-e9a9d04009e2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aroc1/kipertulungagung/build/kipertulungagung', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aroc1/kipertulungagung/build/kipertulungagung/prefix_override:/home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_action_editor/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module_msgs/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk/lib/python3.12/site-packages:/home/aroc1/AlhamdulillahNasional/install/AlhamdulillahNasional/lib/python3.12/site-packages:/home/aroc1/BismilahNasional/install/GoNasional/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aroc1/RobotisSoccerYawNew/install/op3_demo:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool:/home/aroc1/RobotisSoccerYawNew/install/op3_bringup:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector:/home/aroc1/RobotisSoccerYawNew/install/usb_cam:/home/aroc1/RobotisSoccerYawNew/install/op3_action_editor:/home/aroc1/RobotisSoccerYawNew/install/ros_mpg321_player:/home/aroc1/RobotisSoccerYawNew/install/ros_madplay_player:/home/aroc1/RobotisSoccerYawNew/install/op3_read_write_demo:/home/aroc1/RobotisSoccerYawNew/install/op3_manager:/home/aroc1/RobotisSoccerYawNew/install/open_cr_module:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_server:/home/aroc1/RobotisSoccerYawNew/install/op3_localization:/home/aroc1/RobotisSoccerYawNew/install/op3_direct_control_module:/home/aroc1/RobotisSoccerYawNew/install/op3_base_module:/home/aroc1/RobotisSoccerYawNew/install/op3_kinematics_dynamics:/home/aroc1/RobotisSoccerYawNew/install/op3_head_control_module:/home/aroc1/RobotisSoccerYawNew/install/op3_balance_control:/home/aroc1/RobotisSoccerYawNew/install/robotis_math:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module:/home/aroc1/RobotisSoccerYawNew/install/robotis_framework_common:/home/aroc1/RobotisSoccerYawNew/install/robotis_device:/home/aroc1/RobotisSoccerYawNew/install/op3_gui_demo:/home/aroc1/RobotisSoccerYawNew/install/robotis_controller_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_web_setting_tool:/home/aroc1/RobotisSoccerYawNew/install/op3_walking_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_tuner_client:/home/aroc1/RobotisSoccerYawNew/install/op3_tuning_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_online_walking_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_client:/home/aroc1/RobotisSoccerYawNew/install/op3_offset_tuner_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_navigation:/home/aroc1/RobotisSoccerYawNew/install/op3_description:/home/aroc1/RobotisSoccerYawNew/install/op3_camera_setting_tool_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_ball_detector_msgs:/home/aroc1/RobotisSoccerYawNew/install/op3_action_module_msgs:/home/aroc1/RobotisSoccerYawNew/install/face_detection:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_examples:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk_custom_interfaces:/home/aroc1/RobotisSoccerYawNew/install/dynamixel_sdk:/home/aroc1/arocgo/install/arocgo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.515008] (-) TimerEvent: {}
+[3.615179] (-) TimerEvent: {}
+[3.715382] (-) TimerEvent: {}
+[3.815744] (-) TimerEvent: {}
+[3.916087] (-) TimerEvent: {}
+[4.016284] (-) TimerEvent: {}
+[4.116456] (-) TimerEvent: {}
+[4.216641] (-) TimerEvent: {}
+[4.314422] (kipertulungagung) StdoutLine: {'line': b'running develop\n'}
+[4.314869] (kipertulungagung) StderrLine: {'line': b'/home/aroc1/.local/lib/python3.12/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[4.315007] (kipertulungagung) StderrLine: {'line': b'!!\n'}
+[4.315112] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.315212] (kipertulungagung) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.315362] (kipertulungagung) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[4.315461] (kipertulungagung) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.315557] (kipertulungagung) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.315649] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.315741] (kipertulungagung) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[4.315835] (kipertulungagung) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.315929] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.316021] (kipertulungagung) StderrLine: {'line': b'!!\n'}
+[4.316114] (kipertulungagung) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[4.316749] (-) TimerEvent: {}
+[4.415934] (kipertulungagung) StderrLine: {'line': b'/home/aroc1/.local/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[4.416132] (kipertulungagung) StderrLine: {'line': b'!!\n'}
+[4.416251] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.416360] (kipertulungagung) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.416458] (kipertulungagung) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[4.416554] (kipertulungagung) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.416648] (kipertulungagung) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.416746] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.416836] (-) TimerEvent: {}
+[4.416857] (kipertulungagung) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[4.416949] (kipertulungagung) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.417040] (kipertulungagung) StderrLine: {'line': b'\n'}
+[4.417130] (kipertulungagung) StderrLine: {'line': b'!!\n'}
+[4.417221] (kipertulungagung) StderrLine: {'line': b'  self.initialize_options()\n'}
+[4.516954] (-) TimerEvent: {}
+[4.617192] (-) TimerEvent: {}
+[4.717383] (-) TimerEvent: {}
+[4.738946] (kipertulungagung) StderrLine: {'line': b'/home/aroc1/.local/lib/python3.12/site-packages/setuptools/command/easy_install.py:307: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[4.739280] (kipertulungagung) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[4.817493] (-) TimerEvent: {}
+[4.848574] (kipertulungagung) StdoutLine: {'line': b'running egg_info\n'}
+[4.848974] (kipertulungagung) StdoutLine: {'line': b'creating kipertulungagung.egg-info\n'}
+[4.894746] (kipertulungagung) StdoutLine: {'line': b'writing kipertulungagung.egg-info/PKG-INFO\n'}
+[4.895188] (kipertulungagung) StdoutLine: {'line': b'writing dependency_links to kipertulungagung.egg-info/dependency_links.txt\n'}
+[4.895545] (kipertulungagung) StdoutLine: {'line': b'writing entry points to kipertulungagung.egg-info/entry_points.txt\n'}
+[4.895990] (kipertulungagung) StdoutLine: {'line': b'writing requirements to kipertulungagung.egg-info/requires.txt\n'}
+[4.896372] (kipertulungagung) StdoutLine: {'line': b'writing top-level names to kipertulungagung.egg-info/top_level.txt\n'}
+[4.896589] (kipertulungagung) StdoutLine: {'line': b"writing manifest file 'kipertulungagung.egg-info/SOURCES.txt'\n"}
+[4.917595] (-) TimerEvent: {}
+[4.996566] (kipertulungagung) StdoutLine: {'line': b"reading manifest file 'kipertulungagung.egg-info/SOURCES.txt'\n"}
+[4.998067] (kipertulungagung) StdoutLine: {'line': b"writing manifest file 'kipertulungagung.egg-info/SOURCES.txt'\n"}
+[5.017718] (-) TimerEvent: {}
+[5.051410] (kipertulungagung) StdoutLine: {'line': b'running build_ext\n'}
+[5.051810] (kipertulungagung) StdoutLine: {'line': b'Creating /home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages/kipertulungagung.egg-link (link to .)\n'}
+[5.052748] (kipertulungagung) StdoutLine: {'line': b'Installing kiper script to /home/aroc1/kipertulungagung/install/kipertulungagung/lib/kipertulungagung\n'}
+[5.053229] (kipertulungagung) StdoutLine: {'line': b'\n'}
+[5.053744] (kipertulungagung) StdoutLine: {'line': b'Installed /home/aroc1/kipertulungagung/build/kipertulungagung\n'}
+[5.054175] (kipertulungagung) StdoutLine: {'line': b'running install_data\n'}
+[5.054393] (kipertulungagung) StdoutLine: {'line': b'creating /home/aroc1/kipertulungagung/install/kipertulungagung/share/ament_index\n'}
+[5.054577] (kipertulungagung) StdoutLine: {'line': b'creating /home/aroc1/kipertulungagung/install/kipertulungagung/share/ament_index/resource_index\n'}
+[5.054788] (kipertulungagung) StdoutLine: {'line': b'creating /home/aroc1/kipertulungagung/install/kipertulungagung/share/ament_index/resource_index/packages\n'}
+[5.055116] (kipertulungagung) StdoutLine: {'line': b'copying resource/kipertulungagung -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/ament_index/resource_index/packages\n'}
+[5.055377] (kipertulungagung) StdoutLine: {'line': b'copying package.xml -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung\n'}
+[5.055824] (kipertulungagung) StdoutLine: {'line': b'creating /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung/launch\n'}
+[5.056040] (kipertulungagung) StdoutLine: {'line': b'copying launch/kiper.launch.py -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung/launch\n'}
+[5.056221] (kipertulungagung) StdoutLine: {'line': b'creating /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung/config\n'}
+[5.056420] (kipertulungagung) StdoutLine: {'line': b'copying config/kiper.yaml -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung/config\n'}
+[5.117166] (kipertulungagung) CommandEnded: {'returncode': 0}
+[5.117743] (-) TimerEvent: {}
+[5.218014] (-) TimerEvent: {}
+[5.319414] (-) TimerEvent: {}
+[5.359553] (kipertulungagung) JobEnded: {'identifier': 'kipertulungagung', 'rc': 0}
+[5.360203] (-) EventReactorShutdown: {}

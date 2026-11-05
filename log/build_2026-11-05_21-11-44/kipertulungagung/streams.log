@@ -1,0 +1,46 @@
+[3.111s] Invoking command in '/home/aroc1/kipertulungagung/build/kipertulungagung': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc1/kipertulungagung/build/kipertulungagung/prefix_override:/home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aroc1/kipertulungagung/build/kipertulungagung/build --no-deps install_data
+[3.964s] running develop
+[3.964s] /home/aroc1/.local/lib/python3.12/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.965s] !!
+[3.965s] 
+[3.965s]         ********************************************************************************
+[3.966s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.966s]         Instead, use pypa/build, pypa/installer or other
+[3.966s]         standards-based tools.
+[3.966s] 
+[3.966s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.967s]         ********************************************************************************
+[3.967s] 
+[3.967s] !!
+[3.967s]   easy_install.initialize_options(self)
+[4.085s] /home/aroc1/.local/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.086s] !!
+[4.086s] 
+[4.086s]         ********************************************************************************
+[4.086s]         Please avoid running ``setup.py`` directly.
+[4.086s]         Instead, use pypa/build, pypa/installer or other
+[4.086s]         standards-based tools.
+[4.087s] 
+[4.087s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.087s]         ********************************************************************************
+[4.087s] 
+[4.088s] !!
+[4.089s]   self.initialize_options()
+[4.458s] /home/aroc1/.local/lib/python3.12/site-packages/setuptools/command/easy_install.py:307: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.458s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.551s] running egg_info
+[4.600s] writing kipertulungagung.egg-info/PKG-INFO
+[4.600s] writing dependency_links to kipertulungagung.egg-info/dependency_links.txt
+[4.602s] writing entry points to kipertulungagung.egg-info/entry_points.txt
+[4.603s] writing requirements to kipertulungagung.egg-info/requires.txt
+[4.603s] writing top-level names to kipertulungagung.egg-info/top_level.txt
+[4.742s] reading manifest file 'kipertulungagung.egg-info/SOURCES.txt'
+[4.745s] writing manifest file 'kipertulungagung.egg-info/SOURCES.txt'
+[4.807s] running build_ext
+[4.808s] Creating /home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages/kipertulungagung.egg-link (link to .)
+[4.811s] Installing kiper script to /home/aroc1/kipertulungagung/install/kipertulungagung/lib/kipertulungagung
+[4.814s] 
+[4.814s] Installed /home/aroc1/kipertulungagung/build/kipertulungagung
+[4.814s] running install_data
+[4.814s] copying package.xml -> /home/aroc1/kipertulungagung/install/kipertulungagung/share/kipertulungagung
+[4.889s] Invoked command in '/home/aroc1/kipertulungagung/build/kipertulungagung' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc1/kipertulungagung/build/kipertulungagung/prefix_override:/home/aroc1/kipertulungagung/install/kipertulungagung/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aroc1/kipertulungagung/build/kipertulungagung/build --no-deps install_data
